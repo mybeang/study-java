@@ -3,7 +3,7 @@ package chap_04;
 public class _Quiz_04 {
     public static void main(String[] args) {
         // 일부러 앞 내용 써가면서 한건디..ㅋ
-        
+
         int carCode = 2;  // 1; 경차, 2; 장애인차량
         String carCodeName;
         int stayHour = 10;
