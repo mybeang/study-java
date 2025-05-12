@@ -1,1 +1,0 @@
-rootProject.name = "mybeang-home01-spring"
