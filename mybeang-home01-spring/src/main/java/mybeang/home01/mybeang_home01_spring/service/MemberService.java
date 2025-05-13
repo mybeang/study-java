@@ -1,14 +1,13 @@
 package mybeang.home01.mybeang_home01_spring.service;
 
+import jakarta.transaction.Transactional;
 import mybeang.home01.mybeang_home01_spring.domain.Member;
 import mybeang.home01.mybeang_home01_spring.repository.MemberRepository;
-import mybeang.home01.mybeang_home01_spring.repository.MemoryMemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
 
