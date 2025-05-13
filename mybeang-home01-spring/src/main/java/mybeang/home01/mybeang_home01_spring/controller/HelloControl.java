@@ -36,7 +36,7 @@ public class HelloControl {
 
     static class Hello {
         private String name;
-                
+
         public String getName(){
             return this.name;
         };
